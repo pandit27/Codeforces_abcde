@@ -1,4 +1,3 @@
-// brute force solution
 #include <iostream>
 using namespace std;
 
