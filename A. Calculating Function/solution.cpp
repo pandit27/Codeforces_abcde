@@ -16,4 +16,6 @@ int main() {
     EXPLANATION :-
 
     1. do alternate plus minus for odd and even numbers respectively
+
+    2. we can also implement this alternate plus minus by introducing a variable sign and then doing alternate plus minus
 */
