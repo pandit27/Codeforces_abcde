@@ -24,3 +24,19 @@ int main() {
 
     2. if it is > then do toupper() else tolower()
 */
+
+/*
+    PROOF :- 2 * u > n
+
+    here, 
+    u = uppercase 
+    l = lowercase
+    n = length of string
+
+    2u > n
+    2u > u + l
+    2u - u > u + l - u
+    u > l
+
+    hence, proved
+*/
