@@ -10,7 +10,8 @@ int main() {
     if (digit == 4 || digit == 7) ctr++;
     n /= 10;
   }
-  cout << ((ctr == 4 || ctr == 7) ? "YES" : "NO");
+  if (ctr == 4 || ctr == 7) cout << "YES";
+  else cout << "NO";
 }
 
 /*
