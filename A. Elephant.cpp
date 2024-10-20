@@ -5,6 +5,7 @@ using ll = long long;
 int main() {
     ll x;
     cin >> x;
-    ll rem = x % 5, steps_5 = x / 5;
-    cout << (steps_5 + rem);
+    ll steps = x / 5;
+    if (x % 5 != 0) cout << steps + 1;
+    else cout << steps;
 }
